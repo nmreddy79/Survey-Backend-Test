@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-happyagility",
+  "version": "1.0.0",
+  "description": "Node.js, Rest Apis with Express, Sequelize and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "Durgesh Upadhyay",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sequelize": "^4.28.9",
+    "aws-sdk": "^2.925.0",
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.0",
+    "cognito-express": "^3.0.1",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.14.1",
+    "heroku": "^7.54.0",
+    "i18next": "^20.4.0",
+    "mysql2": "^2.2.5",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.0",
+    "password-hash": "^1.2.2",
+    "react-i18next": "^11.11.4",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.2",
+    "stripe": "^8.165.0",
+    "unirest": "^0.6.0"
+  }
+}
